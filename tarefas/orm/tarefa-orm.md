@@ -23,6 +23,7 @@ Com o pacote `node-odbc`, você pode realizar consultas, inserções, atualizaç
 ## Exemplo de Código
 
 Aqui está um exemplo de como o ODBC pode ser usado em um script Node.js:
+
 Obs: Substitua DSN=MeuBancoDeDados pela sua string de conexão real. Este exemplo é simplificado e o uso prático pode variar conforme o seu ambiente e banco de dados específico.
 
 ```javascript
