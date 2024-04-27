@@ -38,6 +38,8 @@ async function queryDatabase() {
 
 queryDatabase();
 
+javascript```
+
 Substitua DSN=MeuBancoDeDados pela sua string de conexão real. Este exemplo é simplificado e o uso prático pode variar conforme o seu ambiente e banco de dados específico.
 
 ODBC em Node.js ajuda a manter uma interface consistente para operações de banco de dados, facilitando a portabilidade do código entre diferentes DBMS.
