@@ -8,6 +8,8 @@
 
 ODBC, ou **Open Database Connectivity**, é um padrão de API que facilita a comunicação entre aplicações e sistemas de gerenciamento de banco de dados (DBMS). No ambiente do JavaScript e Node.js, o ODBC é utilizado para realizar operações em bancos de dados SQL por meio de drivers específicos.
 
+ODBC em Node.js ajuda a manter uma interface consistente para operações de banco de dados, facilitando a portabilidade do código entre diferentes DBMS.
+
 ## Utilização do ODBC em Node.js
 
 Para usar ODBC em Node.js, siga estes passos:
@@ -21,6 +23,7 @@ Com o pacote `node-odbc`, você pode realizar consultas, inserções, atualizaç
 ## Exemplo de Código
 
 Aqui está um exemplo de como o ODBC pode ser usado em um script Node.js:
+Obs: Substitua DSN=MeuBancoDeDados pela sua string de conexão real. Este exemplo é simplificado e o uso prático pode variar conforme o seu ambiente e banco de dados específico.
 
 ```javascript
 const odbc = require('odbc');
